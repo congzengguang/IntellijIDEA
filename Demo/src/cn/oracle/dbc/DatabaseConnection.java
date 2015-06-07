@@ -4,9 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * Created by Administrator on 2015/6/7.
- */
+
 public class DatabaseConnection {
     private static final String DBDRIVER="org.gjt.mm.mysql.Driver";
     private static final String DBURL="jdbc:mysql://localhost:3306/oracle";
