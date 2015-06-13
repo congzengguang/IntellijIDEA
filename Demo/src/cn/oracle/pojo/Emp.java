@@ -22,16 +22,20 @@ public class Emp implements Serializable {
         this.empno = empno;
     }
 
+    public String getEname() {
+        return ename;
+    }
+
+    public void setEname(String ename) {
+        this.ename = ename;
+    }
+
     public String getJob() {
         return job;
     }
 
     public void setJob(String job) {
         this.job = job;
-    }
-
-    public String getEname() {
-        return ename;
     }
 
     public Date getHiredate() {
@@ -56,9 +60,5 @@ public class Emp implements Serializable {
 
     public void setComm(Double comm) {
         this.comm = comm;
-    }
-
-    public void setEname(String ename) {
-        this.ename = ename;
     }
 }
